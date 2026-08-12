@@ -1774,6 +1774,441 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = IKA_fruits_of_thy_labor
+		icon = GFX_focus_IKA_fruits_of_thy_labor
+		relative_position_id = IKA_a_holy_economy
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = -4
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_a_holy_economy
+		}
+		mutually_exclusive = {
+			focus = IKA_give_unto_christ
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_give_unto_christ
+		icon = GFX_focus_IKA_give_unto_christ
+		relative_position_id = IKA_a_holy_economy
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 4
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_a_holy_economy
+		}
+		mutually_exclusive = {
+			focus = IKA_fruits_of_thy_labor
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_no_work_no_eat
+		icon = GFX_focus_IKA_no_work_no_eat
+		relative_position_id = IKA_fruits_of_thy_labor
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = -2
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_fruits_of_thy_labor
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_church_school_vouchers
+		icon = GFX_focus_IKA_church_school_vouchers
+		relative_position_id = IKA_no_work_no_eat
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_no_work_no_eat
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_sheep_and_goats
+		icon = GFX_focus_IKA_sheep_and_goats
+		relative_position_id = IKA_fruits_of_thy_labor
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_fruits_of_thy_labor
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_blessed_industries
+		icon = GFX_focus_IKA_blessed_industries
+		relative_position_id = IKA_sheep_and_goats
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_no_work_no_eat
+		}
+		prerequisite = {
+				focus = IKA_sheep_and_goats
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_blessed_are_the_merciful
+		icon = GFX_focus_IKA_blessed_are_the_merciful
+		relative_position_id = IKA_blessed_industries
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_church_school_vouchers
+		}
+		prerequisite = {
+				focus = IKA_blessed_industries
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_forgiving_creditors
+		icon = GFX_focus_IKA_forgiving_creditors
+		relative_position_id = IKA_fruits_of_thy_labor
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 2
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_fruits_of_thy_labor
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_lessons_from_the_evangelicals
+		icon = GFX_focus_IKA_forgiving_creditors
+		relative_position_id = IKA_forgiving_creditors
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_forgiving_creditors
+		}
+		prerequisite = {
+				focus = IKA_sheep_and_goats
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_blessed_are_the_pure
+		icon = GFX_focus_IKA_blessed_are_the_pure
+		relative_position_id = IKA_lessons_from_the_evangelicals
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_lessons_from_the_evangelicals
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_light_of_the_world
+		icon = GFX_focus_IKA_light_of_the_world
+		relative_position_id = IKA_blessed_are_the_merciful
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_blessed_are_the_merciful
+		}
+		prerequisite = {
+				focus = IKA_blessed_are_the_pure
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_christian_communalism
+		icon = GFX_focus_IKA_christian_communalism
+		relative_position_id = IKA_give_unto_christ
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = -2
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_give_unto_christ
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_sanctified_apprenticeships
+		icon = GFX_focus_IKA_sanctified_apprenticeships
+		relative_position_id = IKA_christian_communalism
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_christian_communalism
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_eye_of_a_needle
+		icon = GFX_focus_IKA_eye_of_a_needle
+		relative_position_id = IKA_give_unto_christ
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_give_unto_christ
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_cleansing_of_the_temple
+		icon = GFX_focus_IKA_cleansing_of_the_temple
+		relative_position_id = IKA_give_unto_christ
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 2
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_give_unto_christ
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_sunday_schools
+		icon = GFX_focus_IKA_sunday_schools
+		relative_position_id = IKA_eye_of_a_needle
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_eye_of_a_needle
+		}
+		prerequisite = {
+				focus = IKA_cleansing_of_the_temple
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_light_to_the_godless
+		icon = GFX_focus_IKA_light_to_the_godless
+		relative_position_id = IKA_cleansing_of_the_temple
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_cleansing_of_the_temple
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_blessed_are_the_poor
+		icon = GFX_focus_IKA_blessed_are_the_poor
+		relative_position_id = IKA_sunday_schools
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_sunday_schools
+		}
+		prerequisite = {
+				focus = IKA_light_to_the_godless
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_blessed_are_the_meek
+		icon = GFX_focus_IKA_blessed_are_the_meek
+		relative_position_id = IKA_sanctified_apprenticeships
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_sunday_schools
+		}
+		prerequisite = {
+				focus = IKA_sanctified_apprenticeships
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_salt_of_the_earth
+		icon = GFX_focus_IKA_salt_of_the_earth
+		relative_position_id = IKA_blessed_are_the_poor
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_blessed_are_the__meek
+		}
+		prerequisite = {
+				focus = IKA_blessed_are_the_poor
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_widows_mite
+		icon = GFX_focus_IKA_widows_mite
+		relative_position_id = IKA_a_holy_economy
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 2
+		cost = 4
+		prerequisite = {
+				focus = IKA_fruits_of_thy_labor
+				focus = IKA_give_unto_christ
+		}
+		completion_reward = {
+		}
+	}	
+	focus = {
+		id = IKA_alms_for_the_poor
+		icon = GFX_focus_IKA_alms_for_the_poor
+		relative_position_id = IKA_widows_mite
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_widows_mite
+		}
+		completion_reward = {
+		}
+	}		
+	focus = {
+		id = IKA_seize_the_antichrists_coffers
+		icon = GFX_focus_IKA_seize_the_antichrists_coffers
+		relative_position_id = IKA_alms_for_the_poor
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_alms_for_the_poor
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_ban_usury
+		icon = GFX_focus_IKA_ban_usury
+		relative_position_id = IKA_seize_the_antichrists_coffers
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1
+		cost = 4
+		prerequisite = {
+				focus = IKA_seize_the_antichrists_coffers
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = IKA_city_on_a_hill
+		icon = GFX_focus_IKA_city_on_a_hill
+		relative_position_id = IKA_ban_usury
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		x = 0
+		y = 1.5
+		cost = 4
+		prerequisite = {
+				focus = IKA_light_of_the_world
+				focus = IKA_salt_of_the_earth
+		}
+		prerequisite = {
+				focus = IKA_ban_usury
+		}
+		completion_reward = {
+		}
+	}
 	#Military Focus Tree
 	focus = {
 		id = IKA_assyria_at_the_gates
